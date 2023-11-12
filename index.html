@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="style.css">
+      <title>Form Validation</title>
+</head>
+<body>
+      <div class="container">
+            <form id="form">
+                  <h1>Register</h1>
+                  <input type="text" name="firstName" class="text"  id="text" placeholder="Enter Your Name"><br>
+                  <span id="errorFname" class=""></span>
+                  <input type="text" name="lastName"   id="lastName" placeholder="Enter Your Last Name"><br>
+                  <span id="errorLname" class=""></span>
+                  <input type="email" name="email"   id="email" placeholder="Enter Your Email"><br>
+                  <span class="" id="errorEmail"></span>
+                  <input type="password" name="password"   id="pass" placeholder="Enter Your Password"><br>
+                  <span id="errorPass" class=""></span>
+                  <select  id="select" name="select"  placeholder="Select Your Country">
+                        <option value="" selected>Select Your Country</option>
+                        <option value="Bangladesh">Bangladesh</option>
+                        <option value="India">India</option>
+                        <option value="Pakistan">Pakistan</option>
+                        <option value="Sri Lanka">Sri Lanka</option>
+                  </select><br>
+                  <textarea name="textarea" id="textArea" placeholder="Enter Your Message" ></textarea><br>
+                  <button id="btn" name="button">Submit </button>
+            </form>
+      </div>
+      <div id="showMess" class="">
+
+      </div>
+      <script src="form.js"></script>
+</body>
+</html>
